@@ -7,9 +7,62 @@
     <title>Bootstrap 101 Template</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+    .navbar{
+      margin-bottom:0;
+      border-radius: 0;
+    }
+  </style>
   </head>
   <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<!---------------------------jumbotron------------------->
+
+<div class="jumbotron text-center">
+  <div container>
+<h1>Hello User!</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, minima?</p>
+<a href="#" class="btn btn-primary">Read more</a>
+  </div>
+</div>
+
 <!----------------------typography section!-->
+
 <div  class="container">
     <h1 class="page-header">Hello, world! <small>Secondary text</small></h1>
     <p>
@@ -274,11 +327,119 @@ change directory with<kbd>Cd</kbd>
 
 <hr>
 
+<!----------------Label----------------->
+<span class="label label-default">Default</span>
+<h1>Hello<span class="label labelprimar">primary</span></h1>
+<span class="label label-success">success</span>
+<span class="label label-info">info</span>
+<span class="label label-warning">warning</span>
+<span class="label label-danger">danger</span>
 
+<hr>
 
+<!--------------------Badges-------------->
 
-
+<a href="#">Inbox <span class="badge">50</span></a>
+<button class="btn btn-primary" type="button">
+  Messagess <span class="badge">2</span>
+</button>
   </div>
+
+<hr>
+
+<!-----------------------Images------------------>
+
+<div class="container">
+<img class="thumbnail" src="img/Screenshot 2023-03-05 134723.jpg">
+<img class="img-rounded" src="img/Screenshot 2023-03-05 134723.jpg">
+<img class="img-circle" src="img/Screenshot 2023-03-05 134723.jpg">
+</div>
+
+<hr>
+
+<!-------------------Grid sys-->
+
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Excepturi consequuntur maxime, unde voluptatem veniam 
+    eaque dolorem maiores molestias laudantium officia.</p>
+<div>
+<div class="col-md-4">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Excepturi consequuntur maxime, unde voluptatem veniam 
+    eaque dolorem maiores molestias laudantium officia.</p>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-3">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Excepturi consequuntur maxime, unde voluptatem veniam 
+      eaque dolorem maiores molestias laudantium officia.</p>
+  </div>
+  <div class="col-md-3">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Excepturi consequuntur maxime, unde voluptatem veniam 
+      eaque dolorem maiores molestias laudantium officia.</p>
+  </div>
+  <div class="col-md-3">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Excepturi consequuntur maxime, unde voluptatem veniam 
+      eaque dolorem maiores molestias laudantium officia.</p>
+  </div>
+  <div class="col-md-3">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Excepturi consequuntur maxime, unde voluptatem veniam 
+      eaque dolorem maiores molestias laudantium officia.</p>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-1">
+<h3>cup</h3>
+</div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+<div class="col-md-1">
+  <h3>cup</h3>
+  </div>
+
+</div>
+
+
 <div style="height: 400px;"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
